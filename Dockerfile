@@ -18,5 +18,5 @@ COPY --from=builder /app/pkg .
 ENV NODE_ENV=production
 ENV PORT=3003
 ENV API_URL=https://API_URL.com
-EXPOSE 3003
+EXPOSE 3005
 CMD ./nextjs-pkg-docker-alpine
